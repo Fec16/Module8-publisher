@@ -12,3 +12,5 @@
     - *`5672` specifies the port number on which the message broker is listening for incoming connections. This is the default port for AMQP.*
 
     *If the publisher and subscriber programs utilize the same URL, it signifies that they're both linked to the identical message broker instance, operating on the same device, and employing identical authentication details and port number. This guarantees that the publisher can transmit messages to the same message broker instance subscribed by the subscriber.*
+
+    ![alt text](assets/images/publisher-1.jpg)
