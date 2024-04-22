@@ -14,7 +14,11 @@
     *If the publisher and subscriber programs utilize the same URL, it signifies that they're both linked to the identical message broker instance, operating on the same device, and employing identical authentication details and port number. This guarantees that the publisher can transmit messages to the same message broker instance subscribed by the subscriber.*
 
     ![alt text](assets/images/publisher-1.jpg)
-    
+
     ![alt text](assets/images/subscriber-1.jpg)
 
     ![alt text](assets/images/publisher-2.jpg)
+
+    *The RabbitMQ interface screenshot shows a spike in message rates caused by me running the publisher multiple times. The spike on the chart indicates that I have executed the publisher program using `cargo run`.*
+
+    ![alt text](assets/images/publisher-3.jpg)
